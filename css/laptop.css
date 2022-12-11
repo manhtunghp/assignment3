@@ -604,9 +604,8 @@ p {
   padding: 40px 40px 0px 40px;
 }
 .hobby-icon {
-  display: flex;
-  flex-wrap: wrap;
-  width: 195%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 40px 40px 0px 40px;
 }
 .hobby-icon i {
@@ -617,7 +616,6 @@ p {
   border: 1px solid;
   border-radius: 50%;
   line-height: 50px;
-  flex: 1 1 auto;
   text-align: center;
   margin: 12px;
 }
