@@ -14,8 +14,7 @@
     width: 767px;
   }
   .img-banner img {
-    width: 700px;
-    height: 200px;
+    max-height: 200px;
   }
   .text-img-banner h1 span {
     margin-left: -350px;
@@ -148,6 +147,10 @@
   }
   .mt-40-info {
     padding: 0;
+  }
+  .certificate-image,
+  .certificate-content {
+    width: 100%;
   }
   /*Phần footer*/
   #footer ul,

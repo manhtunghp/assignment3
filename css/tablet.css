@@ -31,7 +31,13 @@
   .project-items .time-line {
     gap: 20px;
   }
-
+  .certificate-image,
+  .certificate-content {
+    width: 100%;
+  }
+  #target {
+    padding-left: 20px;
+  }
   /*Phần footer*/
   #footer ul,
   li {
